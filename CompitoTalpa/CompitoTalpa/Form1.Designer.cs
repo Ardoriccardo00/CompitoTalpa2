@@ -44,6 +44,11 @@
             this.talpa7 = new System.Windows.Forms.Button();
             this.talpa8 = new System.Windows.Forms.Button();
             this.Tempo = new System.Windows.Forms.Timer(this.components);
+            this.label2 = new System.Windows.Forms.Label();
+            this.punteggio = new System.Windows.Forms.Label();
+            this.countdown = new System.Windows.Forms.Timer(this.components);
+            this.label3 = new System.Windows.Forms.Label();
+            this.tem = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -188,11 +193,55 @@
             this.Tempo.Interval = 1000;
             this.Tempo.Tick += new System.EventHandler(this.Tempo_Tick);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(657, 9);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(55, 13);
+            this.label2.TabIndex = 23;
+            this.label2.Text = "Punteggio";
+            // 
+            // punteggio
+            // 
+            this.punteggio.AutoSize = true;
+            this.punteggio.Location = new System.Drawing.Point(725, 12);
+            this.punteggio.Name = "punteggio";
+            this.punteggio.Size = new System.Drawing.Size(16, 13);
+            this.punteggio.TabIndex = 24;
+            this.punteggio.Text = "...";
+            // 
+            // countdown
+            // 
+            this.countdown.Interval = 1000;
+            this.countdown.Tick += new System.EventHandler(this.countdown_Tick);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(660, 49);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(88, 13);
+            this.label3.TabIndex = 25;
+            this.label3.Text = "tempo rimanente:";
+            // 
+            // tem
+            // 
+            this.tem.AutoSize = true;
+            this.tem.Location = new System.Drawing.Point(771, 49);
+            this.tem.Name = "tem";
+            this.tem.Size = new System.Drawing.Size(0, 13);
+            this.tem.TabIndex = 26;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(957, 500);
+            this.Controls.Add(this.tem);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.punteggio);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.talpa8);
             this.Controls.Add(this.talpa7);
             this.Controls.Add(this.talpa6);
@@ -231,6 +280,11 @@
         private System.Windows.Forms.Button talpa7;
         private System.Windows.Forms.Button talpa8;
         private System.Windows.Forms.Timer Tempo;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label punteggio;
+        private System.Windows.Forms.Timer countdown;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label tem;
     }
 }
 

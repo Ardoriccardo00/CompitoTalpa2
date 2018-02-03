@@ -12,6 +12,8 @@ namespace CompitoTalpa
 {
     public partial class Form1 : Form
     {
+        int punti = 0;
+        int temp = 60;
         public Form1()
         {
             InitializeComponent();
@@ -32,6 +34,7 @@ namespace CompitoTalpa
             ticc = ticc + 1;
             if (numero == 1)
             {
+                
                 talpa1.BackColor = Color.FromArgb(0, 255, 33);
                 talpa2.BackColor = Color.FromArgb(255, 0, 0);
                 talpa3.BackColor = Color.FromArgb(255, 0, 0);
@@ -165,42 +168,127 @@ namespace CompitoTalpa
 
         private void talpa1_Click(object sender, EventArgs e)
         {
-            colpito.Text = "Colpito!";
+            if (talpa1.BackColor == Color.FromArgb(0, 255, 33))
+            {
+                punti = punti + 1;
+                punteggio.Text = Convert.ToString(punti);
+            }
+            else if (talpa1.BackColor == Color.FromArgb(255, 0, 0)) {
+                punti = punti - 1;
+                punteggio.Text = Convert.ToString(punti);
+            }
         }
 
         private void talpa2_Click(object sender, EventArgs e)
         {
             colpito.Text = "Colpito2!";
+            if (talpa2.BackColor == Color.FromArgb(0, 255, 33))
+            {
+                punti = punti + 1;
+                punteggio.Text = Convert.ToString(punti);
+            }
+            else if (talpa2.BackColor == Color.FromArgb(255, 0, 0))
+            {
+                punti = punti - 1;
+                punteggio.Text = Convert.ToString(punti);
+            }
         }
 
         private void talpa3_Click(object sender, EventArgs e)
         {
             colpito.Text = "Colpito3!";
+            if (talpa3.BackColor == Color.FromArgb(0, 255, 33))
+            {
+                punti = punti + 1;
+                punteggio.Text = Convert.ToString(punti);
+            }
+            else if (talpa3.BackColor == Color.FromArgb(255, 0, 0))
+            {
+                punti = punti - 1;
+                punteggio.Text = Convert.ToString(punti);
+            }
         }
 
         private void talpa4_Click(object sender, EventArgs e)
         {
             colpito.Text = "Colpito4!";
+            if (talpa4.BackColor == Color.FromArgb(0, 255, 33))
+            {
+                punti = punti + 1;
+                punteggio.Text = Convert.ToString(punti);
+            }
+            else if (talpa4.BackColor == Color.FromArgb(255, 0, 0))
+            {
+                punti = punti - 1;
+                punteggio.Text = Convert.ToString(punti);
+            }
         }
 
         private void talpa5_Click(object sender, EventArgs e)
         {
             colpito.Text = "Colpito5!";
+            if (talpa5.BackColor == Color.FromArgb(0, 255, 33))
+            {
+                punti = punti + 1;
+                punteggio.Text = Convert.ToString(punti);
+            }
+            else if (talpa5.BackColor == Color.FromArgb(255, 0, 0))
+            {
+                punti = punti - 1;
+                punteggio.Text = Convert.ToString(punti);
+            }
         }
 
         private void talpa6_Click(object sender, EventArgs e)
         {
             colpito.Text = "Colpito6!";
+            if (talpa6.BackColor == Color.FromArgb(0, 255, 33))
+            {
+                punti = punti + 1;
+                punteggio.Text = Convert.ToString(punti);
+            }
+            else if (talpa6.BackColor == Color.FromArgb(255, 0, 0))
+            {
+                punti = punti - 1;
+                punteggio.Text = Convert.ToString(punti);
+            }
         }
 
         private void talpa7_Click(object sender, EventArgs e)
         {
             colpito.Text = "Colpito7!";
+            if (talpa7.BackColor == Color.FromArgb(0, 255, 33))
+            {
+                punti = punti + 1;
+                punteggio.Text = Convert.ToString(punti);
+            }
+            else if (talpa7.BackColor == Color.FromArgb(255, 0, 0))
+            {
+                punti = punti - 1;
+                punteggio.Text = Convert.ToString(punti);
+            }
         }
 
         private void talpa8_Click(object sender, EventArgs e)
         {
             colpito.Text = "Colpito8!";
+            if (talpa8.BackColor == Color.FromArgb(0, 255, 33))
+            {
+                punti = punti + 1;
+                punteggio.Text = Convert.ToString(punti);
+            }
+            else if (talpa8.BackColor == Color.FromArgb(255, 0, 0))
+            {
+                punti = punti - 1;
+                punteggio.Text = Convert.ToString(punti);
+            }
+        }
+
+        private void countdown_Tick(object sender, EventArgs e)
+        {
+            tem.Text = Convert.ToString(temp);
+            temp = temp - 1;
+            if (temp == 0) { MessageBox.Show("Tempo scaduto!"); }
         }
     }
 }
