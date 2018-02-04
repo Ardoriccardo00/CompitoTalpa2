@@ -22,6 +22,7 @@ namespace CompitoTalpa
         private void start_Click(object sender, EventArgs e)
         {
             Tempo.Enabled = true;
+            countdown.Enabled = true;
         }
 
         private void Tempo_Tick(object sender, EventArgs e)
@@ -164,6 +165,8 @@ namespace CompitoTalpa
             talpa7.Enabled = false;
             talpa8.Enabled = false;
             Tempo.Enabled = false;
+            countdown.Enabled = false;
+            lista.Text = "\npunti";
         }
 
         private void talpa1_Click(object sender, EventArgs e)
@@ -286,9 +289,12 @@ namespace CompitoTalpa
 
         private void countdown_Tick(object sender, EventArgs e)
         {
-            tem.Text = Convert.ToString(temp);
             temp = temp - 1;
-            if (temp == 0) { MessageBox.Show("Tempo scaduto!"); }
+            Ttempo.Text = Convert.ToString(temp);
+            if (temp == 0) { MessageBox.Show("Tempo scaduto!");
+                lista.Text = "\npunti";
+            }
+            
         }
     }
 }

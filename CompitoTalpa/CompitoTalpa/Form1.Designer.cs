@@ -34,7 +34,6 @@
             this.Stop = new System.Windows.Forms.Button();
             this.controllo = new System.Windows.Forms.Label();
             this.colpito = new System.Windows.Forms.Label();
-            this.abilita = new System.Windows.Forms.Button();
             this.talpa1 = new System.Windows.Forms.Button();
             this.talpa2 = new System.Windows.Forms.Button();
             this.talpa3 = new System.Windows.Forms.Button();
@@ -49,6 +48,8 @@
             this.countdown = new System.Windows.Forms.Timer(this.components);
             this.label3 = new System.Windows.Forms.Label();
             this.tem = new System.Windows.Forms.Label();
+            this.Ttempo = new System.Windows.Forms.Label();
+            this.lista = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // label1
@@ -97,16 +98,6 @@
             this.colpito.Size = new System.Drawing.Size(16, 13);
             this.colpito.TabIndex = 13;
             this.colpito.Text = "...";
-            // 
-            // abilita
-            // 
-            this.abilita.Location = new System.Drawing.Point(447, 49);
-            this.abilita.Name = "abilita";
-            this.abilita.Size = new System.Drawing.Size(90, 48);
-            this.abilita.TabIndex = 14;
-            this.abilita.Text = "abilita";
-            this.abilita.UseVisualStyleBackColor = true;
-            this.abilita.Click += new System.EventHandler(this.abilita_Click);
             // 
             // talpa1
             // 
@@ -233,11 +224,30 @@
             this.tem.Size = new System.Drawing.Size(0, 13);
             this.tem.TabIndex = 26;
             // 
+            // Ttempo
+            // 
+            this.Ttempo.AutoSize = true;
+            this.Ttempo.Location = new System.Drawing.Point(754, 49);
+            this.Ttempo.Name = "Ttempo";
+            this.Ttempo.Size = new System.Drawing.Size(16, 13);
+            this.Ttempo.TabIndex = 27;
+            this.Ttempo.Text = "...";
+            // 
+            // lista
+            // 
+            this.lista.FormattingEnabled = true;
+            this.lista.Location = new System.Drawing.Point(888, 12);
+            this.lista.Name = "lista";
+            this.lista.Size = new System.Drawing.Size(193, 459);
+            this.lista.TabIndex = 28;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(957, 500);
+            this.ClientSize = new System.Drawing.Size(1130, 500);
+            this.Controls.Add(this.lista);
+            this.Controls.Add(this.Ttempo);
             this.Controls.Add(this.tem);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.punteggio);
@@ -250,7 +260,6 @@
             this.Controls.Add(this.talpa3);
             this.Controls.Add(this.talpa2);
             this.Controls.Add(this.talpa1);
-            this.Controls.Add(this.abilita);
             this.Controls.Add(this.colpito);
             this.Controls.Add(this.controllo);
             this.Controls.Add(this.Stop);
@@ -270,7 +279,6 @@
         private System.Windows.Forms.Button Stop;
         private System.Windows.Forms.Label controllo;
         private System.Windows.Forms.Label colpito;
-        private System.Windows.Forms.Button abilita;
         private System.Windows.Forms.Button talpa1;
         private System.Windows.Forms.Button talpa2;
         private System.Windows.Forms.Button talpa3;
@@ -285,6 +293,8 @@
         private System.Windows.Forms.Timer countdown;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label tem;
+        private System.Windows.Forms.Label Ttempo;
+        private System.Windows.Forms.ListBox lista;
     }
 }
 
