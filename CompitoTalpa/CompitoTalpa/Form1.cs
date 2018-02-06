@@ -23,6 +23,14 @@ namespace CompitoTalpa
         {
             Tempo.Enabled = true;
             countdown.Enabled = true;
+            talpa1.Enabled = true;
+            talpa2.Enabled = true;
+            talpa3.Enabled = true;
+            talpa4.Enabled = true;
+            talpa5.Enabled = true;
+            talpa6.Enabled = true;
+            talpa7.Enabled = true;
+            talpa8.Enabled = true;
         }
 
         private void Tempo_Tick(object sender, EventArgs e)
@@ -30,8 +38,8 @@ namespace CompitoTalpa
             int ticc = 0;
 
             Random r = new Random();
-            int numero = r.Next(1, 8);
-            controllo.Text = (r.Next(1, 8).ToString());
+            int numero = r.Next(1,8);
+            controllo.Text = (r.Next(1,8).ToString());
             ticc = ticc + 1;
             if (numero == 1)
             {
@@ -293,8 +301,29 @@ namespace CompitoTalpa
             Ttempo.Text = Convert.ToString(temp);
             if (temp == 0) { MessageBox.Show("Tempo scaduto!");
                 lista.Text = "\npunti";
+                Tempo.Enabled = false;
             }
             
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Tempo.Interval = 2000;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Tempo.Interval = 700;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Tempo.Interval = 350;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Tempo.Interval = 75;
         }
     }
 }
