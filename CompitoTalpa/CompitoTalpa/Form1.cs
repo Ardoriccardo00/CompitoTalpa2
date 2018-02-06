@@ -174,7 +174,8 @@ namespace CompitoTalpa
             talpa8.Enabled = false;
             Tempo.Enabled = false;
             countdown.Enabled = false;
-            lista.Text = "\npunti";
+            lista.Items.Add(punti);
+            punti = 0;
         }
 
         private void talpa1_Click(object sender, EventArgs e)
@@ -300,8 +301,8 @@ namespace CompitoTalpa
             temp = temp - 1;
             Ttempo.Text = Convert.ToString(temp);
             if (temp == 0) { MessageBox.Show("Tempo scaduto!");
-                lista.Text = "\npunti";
-                Tempo.Enabled = false;
+                lista.Items.Add(punti);
+                punti = 0;
             }
             
         }
@@ -313,17 +314,28 @@ namespace CompitoTalpa
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Tempo.Interval = 700;
+            Tempo.Interval = 1000;
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Tempo.Interval = 350;
+            Tempo.Interval = 750;
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Tempo.Interval = 75;
+            Tempo.Interval = 500;
+        }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+            Tempo.Interval = 500;
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form2 f2 = new Form2();
+            f2.Show();
         }
     }
 }
