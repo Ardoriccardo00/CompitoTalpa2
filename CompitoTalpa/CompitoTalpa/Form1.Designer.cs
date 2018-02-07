@@ -34,7 +34,6 @@
             this.Stop = new System.Windows.Forms.Button();
             this.controllo = new System.Windows.Forms.Label();
             this.colpito = new System.Windows.Forms.Label();
-            this.talpa1 = new System.Windows.Forms.Button();
             this.talpa2 = new System.Windows.Forms.Button();
             this.talpa3 = new System.Windows.Forms.Button();
             this.talpa4 = new System.Windows.Forms.Button();
@@ -56,6 +55,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.talpa1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -105,22 +105,12 @@
             this.colpito.TabIndex = 13;
             this.colpito.Text = "...";
             // 
-            // talpa1
-            // 
-            this.talpa1.BackColor = System.Drawing.Color.Transparent;
-            this.talpa1.Location = new System.Drawing.Point(53, 189);
-            this.talpa1.Name = "talpa1";
-            this.talpa1.Size = new System.Drawing.Size(131, 111);
-            this.talpa1.TabIndex = 15;
-            this.talpa1.UseVisualStyleBackColor = false;
-            this.talpa1.Click += new System.EventHandler(this.talpa1_Click);
-            // 
             // talpa2
             // 
             this.talpa2.BackColor = System.Drawing.Color.Transparent;
-            this.talpa2.Location = new System.Drawing.Point(243, 189);
+            this.talpa2.Location = new System.Drawing.Point(243, 208);
             this.talpa2.Name = "talpa2";
-            this.talpa2.Size = new System.Drawing.Size(131, 111);
+            this.talpa2.Size = new System.Drawing.Size(131, 73);
             this.talpa2.TabIndex = 16;
             this.talpa2.UseVisualStyleBackColor = false;
             this.talpa2.Click += new System.EventHandler(this.talpa2_Click);
@@ -128,9 +118,9 @@
             // talpa3
             // 
             this.talpa3.BackColor = System.Drawing.Color.Transparent;
-            this.talpa3.Location = new System.Drawing.Point(426, 189);
+            this.talpa3.Location = new System.Drawing.Point(426, 208);
             this.talpa3.Name = "talpa3";
-            this.talpa3.Size = new System.Drawing.Size(131, 111);
+            this.talpa3.Size = new System.Drawing.Size(131, 73);
             this.talpa3.TabIndex = 17;
             this.talpa3.UseVisualStyleBackColor = false;
             this.talpa3.Click += new System.EventHandler(this.talpa3_Click);
@@ -138,9 +128,9 @@
             // talpa4
             // 
             this.talpa4.BackColor = System.Drawing.Color.Transparent;
-            this.talpa4.Location = new System.Drawing.Point(630, 189);
+            this.talpa4.Location = new System.Drawing.Point(630, 208);
             this.talpa4.Name = "talpa4";
-            this.talpa4.Size = new System.Drawing.Size(131, 111);
+            this.talpa4.Size = new System.Drawing.Size(131, 73);
             this.talpa4.TabIndex = 18;
             this.talpa4.UseVisualStyleBackColor = false;
             this.talpa4.Click += new System.EventHandler(this.talpa4_Click);
@@ -148,9 +138,9 @@
             // talpa5
             // 
             this.talpa5.BackColor = System.Drawing.Color.Transparent;
-            this.talpa5.Location = new System.Drawing.Point(53, 356);
+            this.talpa5.Location = new System.Drawing.Point(53, 362);
             this.talpa5.Name = "talpa5";
-            this.talpa5.Size = new System.Drawing.Size(131, 111);
+            this.talpa5.Size = new System.Drawing.Size(131, 73);
             this.talpa5.TabIndex = 19;
             this.talpa5.UseVisualStyleBackColor = false;
             this.talpa5.Click += new System.EventHandler(this.talpa5_Click);
@@ -158,9 +148,9 @@
             // talpa6
             // 
             this.talpa6.BackColor = System.Drawing.Color.Transparent;
-            this.talpa6.Location = new System.Drawing.Point(243, 356);
+            this.talpa6.Location = new System.Drawing.Point(243, 362);
             this.talpa6.Name = "talpa6";
-            this.talpa6.Size = new System.Drawing.Size(131, 111);
+            this.talpa6.Size = new System.Drawing.Size(131, 73);
             this.talpa6.TabIndex = 20;
             this.talpa6.UseVisualStyleBackColor = false;
             this.talpa6.Click += new System.EventHandler(this.talpa6_Click);
@@ -168,9 +158,9 @@
             // talpa7
             // 
             this.talpa7.BackColor = System.Drawing.Color.Transparent;
-            this.talpa7.Location = new System.Drawing.Point(426, 356);
+            this.talpa7.Location = new System.Drawing.Point(426, 362);
             this.talpa7.Name = "talpa7";
-            this.talpa7.Size = new System.Drawing.Size(131, 111);
+            this.talpa7.Size = new System.Drawing.Size(131, 73);
             this.talpa7.TabIndex = 21;
             this.talpa7.UseVisualStyleBackColor = false;
             this.talpa7.Click += new System.EventHandler(this.talpa7_Click);
@@ -178,9 +168,9 @@
             // talpa8
             // 
             this.talpa8.BackColor = System.Drawing.Color.Transparent;
-            this.talpa8.Location = new System.Drawing.Point(630, 356);
+            this.talpa8.Location = new System.Drawing.Point(630, 362);
             this.talpa8.Name = "talpa8";
-            this.talpa8.Size = new System.Drawing.Size(131, 111);
+            this.talpa8.Size = new System.Drawing.Size(131, 73);
             this.talpa8.TabIndex = 22;
             this.talpa8.UseVisualStyleBackColor = false;
             this.talpa8.Click += new System.EventHandler(this.talpa8_Click);
@@ -305,6 +295,16 @@
             this.button4.Text = "Avanzato";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click_1);
+            // 
+            // talpa1
+            // 
+            this.talpa1.BackColor = System.Drawing.Color.Transparent;
+            this.talpa1.Location = new System.Drawing.Point(53, 208);
+            this.talpa1.Name = "talpa1";
+            this.talpa1.Size = new System.Drawing.Size(131, 73);
+            this.talpa1.TabIndex = 15;
+            this.talpa1.UseVisualStyleBackColor = false;
+            this.talpa1.Click += new System.EventHandler(this.talpa1_Click);
             // 
             // Form1
             // 

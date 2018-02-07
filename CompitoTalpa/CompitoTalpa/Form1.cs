@@ -43,15 +43,22 @@ namespace CompitoTalpa
             ticc = ticc + 1;
             if (numero == 1)
             {
-                
-                talpa1.BackColor = Color.FromArgb(0, 255, 33);
-                talpa2.BackColor = Color.FromArgb(255, 0, 0);
-                talpa3.BackColor = Color.FromArgb(255, 0, 0);
-                talpa4.BackColor = Color.FromArgb(255, 0, 0);
-                talpa5.BackColor = Color.FromArgb(255, 0, 0);
-                talpa6.BackColor = Color.FromArgb(255, 0, 0);
-                talpa7.BackColor = Color.FromArgb(255, 0, 0);
-                talpa8.BackColor = Color.FromArgb(255, 0, 0);
+
+                talpa1.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/spooh.jpg");
+                talpa2.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/1.jpg");
+                talpa3.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/2.jpg");
+                talpa4.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/3.jpg");
+                talpa5.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/4.jpg");
+                talpa6.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/5.jpg");
+                talpa7.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/6.jpg");
+                talpa8.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/7.jpg");
+                //talpa2.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa3.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa4.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa5.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa6.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa7.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa8.BackColor = Color.FromArgb(255, 0, 0);
 
                 //System.Threading.Thread.Sleep(1000);
                 //talpa1.BackColor = Color.FromArgb(255, 0, 0);
@@ -60,98 +67,154 @@ namespace CompitoTalpa
             else
               if (numero == 2)
             {
-                talpa2.BackColor = Color.FromArgb(0, 255, 33);
-                talpa1.BackColor = Color.FromArgb(255, 0, 0);
-                talpa3.BackColor = Color.FromArgb(255, 0, 0);
-                talpa4.BackColor = Color.FromArgb(255, 0, 0);
-                talpa5.BackColor = Color.FromArgb(255, 0, 0);
-                talpa6.BackColor = Color.FromArgb(255, 0, 0);
-                talpa7.BackColor = Color.FromArgb(255, 0, 0);
-                talpa8.BackColor = Color.FromArgb(255, 0, 0);
+                talpa2.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/spooh.jpg");
+                talpa1.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/1.jpg");
+                talpa3.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/2.jpg");
+                talpa4.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/3.jpg");
+                talpa5.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/4.jpg");
+                talpa6.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/5.jpg");
+                talpa7.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/6.jpg");
+                talpa8.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/7.jpg");
+                //talpa2.BackColor = Color.FromArgb(0, 255, 33);
+                //talpa1.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa3.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa4.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa5.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa6.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa7.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa8.BackColor = Color.FromArgb(255, 0, 0);
                 //System.Threading.Thread.Sleep(1000);
                 //talpa2.BackColor = Color.FromArgb(255, 0, 0);
             }
             else
             if (numero == 3)
             {
-                talpa3.BackColor = Color.FromArgb(0, 255, 33);
-                talpa2.BackColor = Color.FromArgb(255, 0, 0);
-                talpa1.BackColor = Color.FromArgb(255, 0, 0);
-                talpa4.BackColor = Color.FromArgb(255, 0, 0);
-                talpa5.BackColor = Color.FromArgb(255, 0, 0);
-                talpa6.BackColor = Color.FromArgb(255, 0, 0);
-                talpa7.BackColor = Color.FromArgb(255, 0, 0);
-                talpa8.BackColor = Color.FromArgb(255, 0, 0);
+                talpa3.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/spooh.jpg");
+                talpa2.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/1.jpg");
+                talpa1.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/2.jpg");
+                talpa4.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/3.jpg");
+                talpa5.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/4.jpg");
+                talpa6.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/5.jpg");
+                talpa7.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/6.jpg");
+                talpa8.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/7.jpg");
+                //talpa3.BackColor = Color.FromArgb(0, 255, 33);
+                //talpa2.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa1.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa4.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa5.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa6.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa7.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa8.BackColor = Color.FromArgb(255, 0, 0);
                 //System.Threading.Thread.Sleep(1000);
                 //talpa3.BackColor = Color.FromArgb(255, 0, 0);
             }
             else
             if (numero == 4)
             {
-                talpa4.BackColor = Color.FromArgb(0, 255, 33);
-                talpa2.BackColor = Color.FromArgb(255, 0, 0);
-                talpa3.BackColor = Color.FromArgb(255, 0, 0);
-                talpa1.BackColor = Color.FromArgb(255, 0, 0);
-                talpa5.BackColor = Color.FromArgb(255, 0, 0);
-                talpa6.BackColor = Color.FromArgb(255, 0, 0);
-                talpa7.BackColor = Color.FromArgb(255, 0, 0);
-                talpa8.BackColor = Color.FromArgb(255, 0, 0);
+                talpa4.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/spooh.jpg");
+                talpa2.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/1.jpg");
+                talpa3.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/2.jpg");
+                talpa1.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/3.jpg");
+                talpa5.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/4.jpg");
+                talpa6.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/5.jpg");
+                talpa7.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/6.jpg");
+                talpa8.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/7.jpg");
+                //talpa4.BackColor = Color.FromArgb(0, 255, 33);
+                //talpa2.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa3.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa1.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa5.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa6.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa7.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa8.BackColor = Color.FromArgb(255, 0, 0);
                 //System.Threading.Thread.Sleep(1000);
                 //talpa4.BackColor = Color.FromArgb(255, 0, 0);
             }
             else
             if (numero == 5)
             {
-                talpa5.BackColor = Color.FromArgb(0, 255, 33);
-                talpa2.BackColor = Color.FromArgb(255, 0, 0);
-                talpa3.BackColor = Color.FromArgb(255, 0, 0);
-                talpa4.BackColor = Color.FromArgb(255, 0, 0);
-                talpa1.BackColor = Color.FromArgb(255, 0, 0);
-                talpa6.BackColor = Color.FromArgb(255, 0, 0);
-                talpa7.BackColor = Color.FromArgb(255, 0, 0);
-                talpa8.BackColor = Color.FromArgb(255, 0, 0);
+                talpa5.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/spooh.jpg");
+                talpa2.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/1.jpg");
+                talpa3.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/2.jpg");
+                talpa4.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/3.jpg");
+                talpa1.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/4.jpg");
+                talpa6.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/5.jpg");
+                talpa7.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/6.jpg");
+                talpa8.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/7.jpg");
+                //talpa5.BackColor = Color.FromArgb(0, 255, 33);
+                //talpa2.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa3.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa4.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa1.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa6.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa7.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa8.BackColor = Color.FromArgb(255, 0, 0);
                 //System.Threading.Thread.Sleep(1000);
                 //talpa5.BackColor = Color.FromArgb(255, 0, 0);
             }
             else
             if (numero == 6)
             {
-                talpa6.BackColor = Color.FromArgb(0, 255, 33);
-                talpa2.BackColor = Color.FromArgb(255, 0, 0);
-                talpa3.BackColor = Color.FromArgb(255, 0, 0);
-                talpa4.BackColor = Color.FromArgb(255, 0, 0);
-                talpa5.BackColor = Color.FromArgb(255, 0, 0);
-                talpa1.BackColor = Color.FromArgb(255, 0, 0);
-                talpa7.BackColor = Color.FromArgb(255, 0, 0);
-                talpa8.BackColor = Color.FromArgb(255, 0, 0);
+                talpa6.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/spooh.jpg");
+                talpa2.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/1.jpg");
+                talpa3.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/2.jpg");
+                talpa4.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/3.jpg");
+                talpa5.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/4.jpg");
+                talpa1.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/5.jpg");
+                talpa7.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/6.jpg");
+                talpa8.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/7.jpg");
+                //talpa6.BackColor = Color.FromArgb(0, 255, 33);
+                //talpa2.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa3.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa4.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa5.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa1.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa7.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa8.BackColor = Color.FromArgb(255, 0, 0);
                 //System.Threading.Thread.Sleep(1000);
                 //talpa6.BackColor = Color.FromArgb(255, 0, 0);
             }
             else
             if (numero == 7)
             {
-                talpa7.BackColor = Color.FromArgb(0, 255, 33);
-                talpa2.BackColor = Color.FromArgb(255, 0, 0);
-                talpa3.BackColor = Color.FromArgb(255, 0, 0);
-                talpa4.BackColor = Color.FromArgb(255, 0, 0);
-                talpa5.BackColor = Color.FromArgb(255, 0, 0);
-                talpa6.BackColor = Color.FromArgb(255, 0, 0);
-                talpa1.BackColor = Color.FromArgb(255, 0, 0);
-                talpa8.BackColor = Color.FromArgb(255, 0, 0);
+                talpa7.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/spooh.jpg");
+                talpa2.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/1.jpg");
+                talpa3.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/2.jpg");
+                talpa4.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/3.jpg");
+                talpa5.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/4.jpg");
+                talpa6.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/5.jpg");
+                talpa1.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/6.jpg");
+                talpa8.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/7.jpg");
+                //talpa7.BackColor = Color.FromArgb(0, 255, 33);
+                //talpa2.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa3.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa4.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa5.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa6.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa1.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa8.BackColor = Color.FromArgb(255, 0, 0);
                 //System.Threading.Thread.Sleep(1000);
                 //talpa7.BackColor = Color.FromArgb(255, 0, 0);
             }
             else
             if (numero == 8)
             {
-                talpa8.BackColor = Color.FromArgb(0, 255, 33);
-                talpa2.BackColor = Color.FromArgb(255, 0, 0);
-                talpa3.BackColor = Color.FromArgb(255, 0, 0);
-                talpa4.BackColor = Color.FromArgb(255, 0, 0);
-                talpa5.BackColor = Color.FromArgb(255, 0, 0);
-                talpa6.BackColor = Color.FromArgb(255, 0, 0);
-                talpa7.BackColor = Color.FromArgb(255, 0, 0);
-                talpa1.BackColor = Color.FromArgb(255, 0, 0);
+                talpa8.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/spooh.jpg");
+                talpa2.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/1.jpg");
+                talpa3.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/2.jpg");
+                talpa4.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/3.jpg");
+                talpa5.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/4.jpg");
+                talpa6.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/5.jpg");
+                talpa7.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/6.jpg");
+                talpa1.Image = Image.FromFile("C:/Users/richi/source/repos/CompitoTalpa2/CompitoTalpa/Immagini/7.jpg");
+                //talpa8.BackColor = Color.FromArgb(0, 255, 33);
+                //talpa2.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa3.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa4.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa5.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa6.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa7.BackColor = Color.FromArgb(255, 0, 0);
+                //talpa1.BackColor = Color.FromArgb(255, 0, 0);
                 //System.Threading.Thread.Sleep(1000);
                 //talpa8.BackColor = Color.FromArgb(255, 0, 0);
             }
@@ -185,7 +248,8 @@ namespace CompitoTalpa
                 punti = punti + 1;
                 punteggio.Text = Convert.ToString(punti);
             }
-            else if (talpa1.BackColor == Color.FromArgb(255, 0, 0)) {
+            else if (talpa1.Image == Image.FromFile("C:/ Users / richi / source / repos / CompitoTalpa2 / CompitoTalpa / Immagini / spooh.jpg"))
+            {  
                 punti = punti - 1;
                 punteggio.Text = Convert.ToString(punti);
             }
