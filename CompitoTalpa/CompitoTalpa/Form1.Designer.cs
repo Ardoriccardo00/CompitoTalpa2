@@ -56,6 +56,7 @@
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.talpa1 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -69,22 +70,24 @@
             // 
             // start
             // 
+            this.start.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.start.Location = new System.Drawing.Point(109, 12);
             this.start.Name = "start";
             this.start.Size = new System.Drawing.Size(75, 23);
             this.start.TabIndex = 2;
             this.start.Text = "Start";
-            this.start.UseVisualStyleBackColor = true;
+            this.start.UseVisualStyleBackColor = false;
             this.start.Click += new System.EventHandler(this.start_Click);
             // 
             // Stop
             // 
+            this.Stop.BackColor = System.Drawing.Color.Red;
             this.Stop.Location = new System.Drawing.Point(109, 51);
             this.Stop.Name = "Stop";
             this.Stop.Size = new System.Drawing.Size(75, 23);
             this.Stop.TabIndex = 11;
             this.Stop.Text = "Stop";
-            this.Stop.UseVisualStyleBackColor = true;
+            this.Stop.UseVisualStyleBackColor = false;
             this.Stop.Click += new System.EventHandler(this.Stop_Click);
             // 
             // controllo
@@ -248,39 +251,45 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.Aqua;
             this.button1.Location = new System.Drawing.Point(1253, 51);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(91, 36);
             this.button1.TabIndex = 31;
             this.button1.Text = "Facile";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button2.Location = new System.Drawing.Point(1253, 126);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(91, 36);
             this.button2.TabIndex = 32;
             this.button2.Text = "Medio";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.button3.Location = new System.Drawing.Point(1253, 203);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(91, 36);
             this.button3.TabIndex = 33;
             this.button3.Text = "Difficile";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button5
             // 
+            this.button5.BackgroundImage = global::CompitoTalpa.Properties.Resources.GATTOFERRI;
+            this.button5.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.White;
             this.button5.Location = new System.Drawing.Point(1130, 329);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(214, 138);
+            this.button5.Size = new System.Drawing.Size(214, 226);
             this.button5.TabIndex = 35;
             this.button5.Text = "Avventura";
             this.button5.UseVisualStyleBackColor = true;
@@ -288,12 +297,13 @@
             // 
             // button4
             // 
+            this.button4.BackColor = System.Drawing.Color.Red;
             this.button4.Location = new System.Drawing.Point(1253, 273);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(91, 36);
             this.button4.TabIndex = 36;
             this.button4.Text = "Avanzato";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click_1);
             // 
             // talpa1
@@ -306,11 +316,20 @@
             this.talpa1.UseVisualStyleBackColor = false;
             this.talpa1.Click += new System.EventHandler(this.talpa1_Click);
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(888, 506);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(193, 20);
+            this.textBox1.TabIndex = 38;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1439, 500);
+            this.BackgroundImage = global::CompitoTalpa.Properties.Resources.testata_home;
+            this.ClientSize = new System.Drawing.Size(1439, 610);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button3);
@@ -372,6 +391,7 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 

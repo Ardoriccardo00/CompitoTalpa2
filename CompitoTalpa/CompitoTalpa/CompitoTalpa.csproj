@@ -118,5 +118,38 @@
   <ItemGroup>
     <None Include="Resources\P_20171009_1937241.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\testata-home.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GATTOFERRI.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cinque.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\due.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\otto.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quattro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sei.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sette.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spooh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tre.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uno.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
