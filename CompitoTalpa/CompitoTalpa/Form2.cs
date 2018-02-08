@@ -27,23 +27,26 @@ namespace CompitoTalpa
             //else if (pic == 1) { immagine.ImageLocation = @"C:\Users\richi\source\repos\CompitoTalpa2\CompitoTalpa\Immagini\nana strana.JPG"; }
             //pic = pic + 1;
 
-            switch (pic) {
+            //avanti.Image = CompitoTalpa.Properties.Resources.background1;
+
+            switch (pic)
+            {
                 case 1:
-               immagine.ImageLocation = @"C:\Users\richi\source\repos\CompitoTalpa2\CompitoTalpa\Immagini\inizio.JPEG";
+                    immagine.Image = CompitoTalpa.Properties.Resources.inizio;
                     pic = pic + 1;
                     break;
                 case 2:
-                    immagine.ImageLocation = @"C:\Users\richi\source\repos\CompitoTalpa2\CompitoTalpa\Immagini\background1.png";
+                    immagine.Image = CompitoTalpa.Properties.Resources.background1;
                     nanaStanca.Visible = true;
-                    dialogo.Text = "...";
+                    dialogo.Text = "Nana:   ...";
                     pic = pic + 1;
                     break;
                 case 3:
-                    dialogo.Text = "Che cos'è tutto questo rumore?";
+                    dialogo.Text = "Nana:   Che cos'è tutto questo rumore?";
                     pic = pic + 1;
                     break;
                 case 4:
-                    
+
                     break;
 
             }
@@ -58,6 +61,11 @@ namespace CompitoTalpa
         {
             nanaStanca.Top = 10;
             nanaStanca.Left = 5;
+        }
+
+        private void immagine_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

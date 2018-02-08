@@ -88,7 +88,7 @@
             // 
             this.immagine.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.immagine.Image = global::CompitoTalpa.Properties.Resources.background1;
-            this.immagine.ImageLocation = "C:\\Users\\richi\\source\\repos\\CompitoTalpa2\\CompitoTalpa\\Immagini";
+            this.immagine.ImageLocation = "";
             this.immagine.Location = new System.Drawing.Point(40, 12);
             this.immagine.Name = "immagine";
             this.immagine.Size = new System.Drawing.Size(1371, 641);
